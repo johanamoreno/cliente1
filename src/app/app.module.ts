@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SupermanComponent } from './superman/superman.component';
+import { LexComponent } from './lex/lex.component';
+import { MenuComponent } from './shared/menu/menu.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SupermanComponent,
+    LexComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
